@@ -93,9 +93,12 @@ if($Foto == null) {
 </select>
 <br>
 
-<label for="nama" class="form-label">Foto : </label>
-<img src="images/<?php echo $Foto; ?>" width="100" height="100"><br>
-  <input class="form-control" type="file" id="Foto" name="Foto">
+<td>Foto</td>
+  <td>
+ <img src="images/<?php echo $Foto; ?>" width="100" height="100"> <br>
+<input type="checkbox" name="ganti_foto" value="true"> Checklist Ubah Foto <br>
+<input type="file" name="Foto">
+</td>
 <br>
 
   <center><input class="btn btn-primary" type="submit" name="submit" value="Submit"></center>
